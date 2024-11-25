@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      Inter: "Inter, sans-serif",
+      inter: "Inter, sans-serif",
     },
     container: {
       center: true,
