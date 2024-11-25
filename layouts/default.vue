@@ -8,7 +8,9 @@
       <slot />
     </main>
 
-    <footer><NavFooter /></footer>
+    <footer>
+      <NavFooter />
+    </footer>
   </div>
 </template>
 
