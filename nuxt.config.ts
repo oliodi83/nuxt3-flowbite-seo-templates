@@ -4,14 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/google-fonts",
     "@nuxt/icon",
     "@nuxt/image",
+    "@nuxt/fonts",
   ],
-  googleFonts: {
-    families: {
-      Inter: true,
-      display: "swap",
-    },
-  },
 });
