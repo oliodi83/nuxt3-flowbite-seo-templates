@@ -13,19 +13,19 @@
         class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white"
       >
         <li>
-          <NuxtLink to="/services" class="mr-4 hover:underline md:mr-6"
-            >Services</NuxtLink
-          >
+          <NuxtLink to="/services" class="mr-4 hover:underline md:mr-6">
+            Services
+          </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/pricing" class="mr-4 hover:underline md:mr-6"
-            >Pricing</NuxtLink
-          >
+          <NuxtLink to="/pricing" class="mr-4 hover:underline md:mr-6">
+            Pricing
+          </NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/contact" class="mr-4 hover:underline md:mr-6"
-            >Contact</NuxtLink
-          >
+          <NuxtLink to="/contact" class="mr-4 hover:underline md:mr-6">
+            Contact
+          </NuxtLink>
         </li>
       </ul>
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
@@ -35,3 +35,5 @@
     </div>
   </div>
 </template>
+
+<script setup lang="ts"></script>
