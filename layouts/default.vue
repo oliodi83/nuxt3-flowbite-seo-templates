@@ -3,7 +3,14 @@
     <header>
       <NavBar />
     </header>
-    <slot />
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <NavFooter />
+    </footer>
   </div>
 </template>
 
