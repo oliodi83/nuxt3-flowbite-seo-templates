@@ -7,17 +7,29 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "@nuxt/fonts": "^0.10.2",
     "@nuxt/icon": "^1.8.2",
     "@nuxt/image": "^1.8.1",
     "@nuxtjs/tailwindcss": "^6.12.2",
-    "flowbite": "^2.5.2",
     "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"
   },
-  "packageManager": "pnpm@9.13.1+sha512.5ac37545851c55ec58521b6c285db6f848f93ca70889beb4145f5b40fe234e4ea4faee4dad12ac5c139e494374c65d9c3a6ec9a25954378fa286a250e68d2f20"
+  "packageManager": "bun@1.1.37",
+  "devDependencies": {
+    "@nuxt/eslint": "^0.7.2",
+    "daisyui": "^4.12.14",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.1",
+    "typescript": "^5.7.2",
+    "vue-tsc": "^2.1.10"
+  }
 }

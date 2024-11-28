@@ -7,11 +7,7 @@
     <main>
       <slot />
     </main>
-
-    <footer>
-      <NavFooter />
-    </footer>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script lang="ts" setup></script>
