@@ -1,27 +1,31 @@
 <template>
   <div
-    title="Change Theme"
     class="dropdown dropdown-end hidden [@supports(color:oklch(0%_0_0))]:block"
+    title="Change Theme"
   >
     <div
-      tabindex="0"
-      role="button"
       class="btn btn-ghost"
+      role="button"
+      tabindex="0"
     >
+      <Icon
+        class="text-base md:hidden"
+        name="mdi:color"
+      />
       <span class="hidden font-normal md:inline">Theme</span>
       <svg
-        width="12px"
+        class="hidden h-2 w-2 fill-current opacity-60 md:inline-block"
         height="12px"
-        class="hidden h-2 w-2 fill-current opacity-60 sm:inline-block"
-        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 2048 2048"
+        width="12px"
+        xmlns="http://www.w3.org/2000/svg"
       >
         <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
       </svg>
     </div>
     <div
-      tabindex="0"
       class="dropdown-content bg-base-200 text-base-content rounded-box top-px h-[28.6rem] max-h-[calc(100vh-10rem)] w-56 overflow-y-auto border border-white/5 shadow-2xl outline outline-1 outline-black/5 mt-16"
+      tabindex="0"
     >
       <div class="grid grid-cols-1 gap-3 p-3">
         <button
@@ -36,12 +40,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -68,12 +72,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -100,12 +104,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -132,12 +136,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -164,12 +168,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -196,12 +200,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -228,12 +232,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -260,12 +264,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -292,12 +296,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -324,12 +328,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -356,12 +360,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -388,12 +392,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -420,12 +424,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -452,12 +456,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -484,12 +488,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -516,12 +520,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -548,12 +552,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -580,12 +584,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -612,12 +616,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -644,12 +648,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -676,12 +680,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -708,12 +712,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -740,12 +744,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -772,12 +776,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -804,12 +808,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -836,12 +840,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -868,12 +872,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -900,12 +904,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -932,12 +936,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -964,12 +968,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -996,12 +1000,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -1028,12 +1032,12 @@
             <span class="grid grid-cols-5 grid-rows-3">
               <span class="col-span-5 row-span-3 row-start-1 flex items-center gap-2 px-4 py-3">
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  class="invisible h-3 w-3 shrink-0"
+                  fill="currentColor"
                   height="16"
                   viewBox="0 0 24 24"
-                  fill="currentColor"
-                  class="invisible h-3 w-3 shrink-0"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"></path>
                 </svg>
@@ -1056,17 +1060,17 @@
           <div class="hover:bg-neutral hover:text-neutral-content w-full cursor-pointer font-sans">
             <div class="flex gap-2 p-3">
               <svg
-                width="24"
-                height="24"
-                xmlns="http://www.w3.org/2000/svg"
                 class="h-4 w-4 fill-current"
+                height="24"
                 viewBox="0 0 512 512"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M96,208H48a16,16,0,0,1,0-32H96a16,16,0,0,1,0,32Z"></path>
                 <line
                   x1="90.25"
-                  y1="90.25"
                   x2="124.19"
+                  y1="90.25"
                   y2="124.19"
                 ></line>
                 <path
@@ -1075,8 +1079,8 @@
                 <path d="M192,112a16,16,0,0,1-16-16V48a16,16,0,0,1,32,0V96A16,16,0,0,1,192,112Z"></path>
                 <line
                   x1="293.89"
-                  y1="90.25"
                   x2="259.95"
+                  y1="90.25"
                   y2="124.19"
                 ></line>
                 <path
@@ -1084,8 +1088,8 @@
                 ></path>
                 <line
                   x1="124.19"
-                  y1="259.95"
                   x2="90.25"
+                  y1="259.95"
                   y2="293.89"
                 ></line>
                 <path

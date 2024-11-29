@@ -2,23 +2,25 @@
   <div>
     <li>
       <NuxtLink
-        :to="url"
-        class="btn btn-ghost"
-        :class="{
-          'text-primary': isActive,
-        }"
         aria-current="page"
+        :class="{
+          'text-inherit': isActive,
+        }"
+        :to="url"
       >
-        <slot />
+        {{ label }}
       </NuxtLink>
     </li>
   </div>
 </template>
 
-<script setup lang="ts">
-const props = defineProps({
-  url: String,
-})
+<script lang="ts" setup>
+interface Props {
+  url: string
+  label: string
+}
+
+const props = defineProps<Props>()
 
 // Check the current route against the passed url to set to active or not
 const route = useRoute()

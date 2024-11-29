@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <NavBar />
+      <NavBar variant="neutral" />
     </header>
 
     <main>

@@ -1,21 +1,43 @@
 <template>
-  <div>
-    <nav class="bg-base-100">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
-        <NavLogo />
-        <NavMobileMenu />
-        <div
-          class="hidden w-full md:block md:w-auto"
-          id="navbar-solid-bg"
-        >
-          <ul class="menu menu-horizontal">
-            <NavLink url="/">Home</NavLink>
-            <NavThemeSwitcher />
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+  <nav
+    class="navbar"
+    :class="variantClass"
+  >
+    <div class="navbar-start">
+      <NavBarMobileMenu />
+      <NavBarBrand />
+    </div>
+
+    <div class="navbar-center hidden md:block">
+      <ul class="menu menu-horizontal px-1">
+        <NavBarLink
+          label="Home"
+          url="/"
+        />
+      </ul>
+    </div>
+
+    <div class="navbar-end">
+      <NavBarThemeSwitcher />
+    </div>
+  </nav>
 </template>
 
-<script setup lang="ts"></script>
+<script lang="ts" setup>
+interface Props {
+  variant?: 'default' | 'neutral' | 'base'
+}
+
+const props = defineProps<Props>()
+
+const variantClass = computed(() => {
+  switch (props.variant) {
+    case 'neutral':
+      return 'bg-neutral text-neutral-content'
+    case 'base':
+      return 'bg-base-300'
+    default:
+      return 'bg-base-100'
+  }
+})
+</script>
